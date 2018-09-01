@@ -18,7 +18,7 @@
         android:theme="@style/AppThemeDark">
         <activity
             android:name="com.example.yuanping.imageload.ui.ImageGridActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
         <activity
             android:name="com.example.yuanping.imageload.ui.ImageDetailActivity"
             android:label="@string/app_name"
@@ -37,6 +37,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.yuanping.imageload.picasso.PicassoImageLoad"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 
 </manifest>

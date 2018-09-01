@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.android.displayingbitmaps.R;
+import com.example.yuanping.imageload.picasso.PicassoImageLoad;
 import com.example.yuanping.imageload.ui.ImageGridActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void googleImageLoader(View view) {
         Intent intent = new Intent(this, ImageGridActivity.class);
+        startActivity(intent);
+    }
+
+    public void picassoImageLoader(View view) {
+        Intent intent = new Intent(this, PicassoImageLoad.class);
         startActivity(intent);
     }
 }
